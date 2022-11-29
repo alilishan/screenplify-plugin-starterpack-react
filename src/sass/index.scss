@@ -1,0 +1,75 @@
+@import './variables.scss';
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Load Fonts
+@import '../fonts/Poppins/style.scss';
+// @import '../fonts/MaterialDesign/scss/materialdesignicons.scss';
+
+// Fonts
+@import '../fonts/OpenSans/font-file.scss';
+@import '../fonts/Roboto/font-file.scss';
+
+
+html,
+body {
+	background-color: $appBgColor;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: 'Poppins', 'Verdana', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: $appColor;
+	letter-spacing: .5px;
+	font-weight: 400;
+    line-height: 1.5;
+
+	.btn, .btn:focus, .btn-link, a, a:link, a:visited {
+		text-decoration: none;
+		outline: 0;
+		transition: all .3s ease;
+	}
+}
+
+.font-Poppins {
+	font-family: 'Poppins' !important;
+
+    * {
+        font-family: 'Poppins' !important;
+    }
+}
+
+.font-OpenSans {
+	font-family: 'Open Sans' !important;
+
+    * {
+        font-family: 'Open Sans' !important;
+    }
+}
+
+.font-Roboto {
+    font-family: 'Roboto' !important;
+
+    * {
+        font-family: 'Roboto' !important;
+    }
+}
+
+@import './common.scss';
+
+.media-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	width: 100vw;
+	height: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.media-image {
+	width: 100%;
+	padding-top: 100%;
+}

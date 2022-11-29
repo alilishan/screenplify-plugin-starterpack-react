@@ -1,0 +1,35 @@
+{
+    "plugin_box": {
+        "version": "4.0"
+    },
+    "application": {
+        "id": "78958254_RICHRSS",
+        "name": "Rich RSS 1.0",
+        "author": "Lishan",
+        "description": "Fully customizable plugin to show rich media RSS feeds complete with images and QR codes.",
+        "version": "1.0.3",
+        "thumbnail": "",
+        "db_name": "data.json",
+        "permissions": {
+            "regenerate_id": true
+        }
+    },
+    "setting": {
+        "path": "admin/index.php?no_mm=y"
+    },
+    "admin": {
+        "path": "admin/index.php"
+    },
+    "icon": {
+        "icon_64": "favicons/64-icon.jpg",
+        "icon_128": "favicons/128-icon.jpg"
+    },
+    "configuration": {
+        "screen": {
+            "width": "1080px",
+            "height": "340px"
+        }
+    },
+    "uses-permission": [],
+    "build": "build-1640854976010"
+}

@@ -1,0 +1,39 @@
+
+// App Variables
+$appBgColor: #fff;
+$appColor: #67748e;
+$appBgSecondaryColor: #f7f7fc;
+$appOunchColor: #ff9800;
+$fontPaths: './';
+
+// Override BS default variables before the import
+$body-bg: $appBgColor;
+$enable-negative-margins: true;
+
+$utilities: (
+  "opacity": (
+    property: opacity,
+    responsive: true,
+    values: (
+      0: 0,
+      5: .05,
+      10: .10,
+      25: .25,
+      50: .5,
+      75: .75,
+      100: 1,
+    )
+  )
+ );
+
+ $spacer: 1rem !default;
+ $spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 5),
+  7: ($spacer * 6.5)
+)
